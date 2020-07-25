@@ -49,7 +49,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ### 笔记部分
-[hello github](https://github.com/chenjun-1201/chenjun-1201.github.io/edit/master/index.md)
+[编辑笔记](https://github.com/chenjun-1201/chenjun-1201.github.io/edit/master/index.md)
 
 
 
