@@ -17,7 +17,7 @@
 
 <h1>个人信息</h1>
 
-<ul><li>沉默王二/男/1989 </li><li>专科/家里蹲大学</li><li>工作年限：10年</li><li>技术博客：http://www.itwanger.com </li><li><p>Github：http://github.com/qinggee ( 有原创repo的Github帐号会极大的提升你的个人品牌  )</p></li><li><p>期望职位：Java 高级程序员，系统架构师</p></li><li>期望薪资：税前月薪30k~50k，特别喜欢的公司可例外</li><li>期望城市：洛阳</li></ul>
+<ul><li>陈军/男/1998 </li><li>专科/家里蹲大学</li><li>工作年限：10年</li><li>技术博客：http://www.itwanger.com </li><li><p>Github：http://github.com/qinggee ( 有原创repo的Github帐号会极大的提升你的个人品牌  )</p></li><li><p>期望职位：Java 高级程序员，系统架构师</p></li><li>期望薪资：税前月薪30k~50k，特别喜欢的公司可例外</li><li>期望城市：洛阳</li></ul>
 
 <h1>工作经历</h1>
 
@@ -86,6 +86,7 @@
 <h1>致谢</h1>
 
 <p>感谢您花时间阅读我的简历，期待能有机会和您共事。
+     <img src="./13a17.jpg" id="demo1" onmousemove="">
       </p>
       
       <div>
@@ -93,6 +94,27 @@
     <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 </div>
     <script src="https://cdn.jsdelivr.net/gh/chenjun-1201/live2d-widget@latest/autoload.js"></script>
+    
+    
+<script>
+
+window.onload=function(){
+   var img= document.getElementById("demo1");
+  document.onmousemove=function(envent){
+  x=envent.pageX-50;
+  y=envent.pageY-50;
+ 
+
+  img.style.left = x  + "px";
+  img.style.top = y + "px";
+
+  console(x+"ddddd"+y);
+
+
+  };
+
+}
+</script>  
 
 </body>
 </html>
